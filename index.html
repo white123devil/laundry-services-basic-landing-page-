@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice doc</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            /* border: 1px solid black; */
+        }
+        nav{
+            /* border-bottom: 1px solid grey; */
+            /* margin-bottom: 0; */
+            /* background-color: red; */
+            padding:0;
+         } 
+        .logo{
+            padding-left: 80px;
+        }
+         .logo-img{
+            width: 80px;
+         }
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #menu{
+            padding-left:30px;
+        }
+        a{
+            padding: 10px;
+            text-decoration: none;
+            color: grey;
+            font-size: 1.2em;
+        }
+        a:hover{
+            color: aqua;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .button_sec{
+            align-self: center;
+            padding-right: 80px;
+        }
+        button{
+            color: rgb(9, 220, 239);
+            background: #cefcfb;
+            border: none;
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+        }
+        /* hero_section */
+        .hero{
+            background-color:#f9f9f9;
+            /* margin-top:0; */
+            /* background-color: red; */
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 5px;
+        }
+        .left-pera{
+            width:460px;
+            color: grey;
+            margin-top:-30px;
+        }
+        .hero-img{
+            width: 600px;
+            height: 600px;
+        }
+        .head1{
+            color: rgb(79, 78, 78);
+            font-size: 3.5em;
+        }
+        .head2{
+            font-size: em;
+            color:rgb(13, 156, 239);
+            /* margin-bottom: 10px; */
+        }
+        .button2{
+            background-color: rgb(13, 156, 239); 
+            color:white;
+            width: 200px;
+            margin-left: -10px;
+        }
+        .left{
+            /* padding:5px; */
+            /* width: 560px; */
+            font-size: 1.2em;
+        }
+        /* h2{
+            font-size: 5vh;
+            border: 2px solid;
+            margin:;
+        } */
+        
+        
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <!-- Logo -->
+        <div class="logo">
+            <img class="logo-img" src="140-1405019_laundry-service-logo-removebg-preview.png" alt="">
+        </div>
+        <!-- menu bar -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li id="menu"><a href="#" >Services</a></li>
+            <li id="menu"><a href="#" >About us</a></li>
+            <li id="menu"><a href="#" >Contact us</a></li>
+        </ul>
+        <!-- nav right button -->
+         <div class="button_sec">
+           <a id="bb" href="#"><button>Username</button></a>
+         </div>
+    </nav>
+
+    <!-- Hero section -->
+     <div class="hero">
+        <!-- left -->
+        <div class="left">
+            <h1 class="head1">Revitalize Your<br> Clothes with Expert<br><span class="head2">Laundry Services!</span></h1>
+            <p class="left-pera">From permium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!</p>
+            <a href="#"><button class="button2">Book a service today</button></a>
+        </div>
+        <!-- right -->
+        <div class="right">
+            <img class="hero-img" src="hero_img-removebg-preview.png" alt="hero_img">
+        </div>
+     </div>
+</body>
+</html>
